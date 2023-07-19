@@ -16,7 +16,6 @@ pipeline {
         SERVICE_NAME = "test-service-${Envr_Name}"
         TASKDEF_NAME = "tdf-maven-${Envr_Name}"
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
-        
     }
     
 
