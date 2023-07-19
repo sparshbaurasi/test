@@ -7,6 +7,8 @@ pipeline {
             description: 'Select from which branch do you want to Deploy'
         )
     }
+
+    
     environment {
         AWS_ACCOUNT_ID="382904467012"
         AWS_DEFAULT_REGION="us-east-1"
@@ -16,7 +18,6 @@ pipeline {
         SERVICE_NAME = "test-service-${Envr_Name}"
         TASKDEF_NAME = "tdf-maven-${Envr_Name}"
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
-        
     }
     
 
@@ -195,6 +196,8 @@ pipeline {
 //                 }
 //             }
 //         }
+
+
         
 //         stage('Upload App Image') {
 //           steps{

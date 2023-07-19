@@ -5,3 +5,6 @@ RUN mvn clean install
 WORKDIR /app/target
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","mavenwebapp.jar"]
+
+
+
