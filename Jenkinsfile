@@ -6,6 +6,7 @@ pipeline {
             choices: ['dev', 'prod','uat'],
             description: 'Select from which branch do you want to Deploy'
         )
+
     }
 
     environment {
