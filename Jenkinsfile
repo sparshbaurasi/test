@@ -8,6 +8,7 @@ pipeline {
         )
     }
 
+
     
     environment {
         AWS_ACCOUNT_ID="382904467012"
