@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 
-ggg
+
 
 public class SarveshApplication {
 	@GetMapping("/")
