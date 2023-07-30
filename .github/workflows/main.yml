@@ -5,7 +5,7 @@ on:
 
 jobs:
   job1:
-    uses: sparshbaurasi/hiup/.github/workflows/action.yml@main
+    uses: sparshbaurasi/hiup/.github/workflows/action.yaml@main
 
   job2:
     runs-on: ubuntu-latest
