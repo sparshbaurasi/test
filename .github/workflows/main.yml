@@ -7,7 +7,9 @@ jobs:
   job1:
     uses: sparshbaurasi/hiup/.github/workflows/action.yaml@main
     secrets:
-      test: ${{ secrets.test }}
+      HW_CSS_FDS_AZURE_CLIENT_ID: ${{ secrets.HW_CSS_FDS_AZURE_CLIENT_ID }}
+      HW_CSS_FDS_AZURE_TENANT_ID: ${{ secrets.HW_CSS_FDS_AZURE_TENANT_ID }}
+      HW_CSS_FDS__AZURE_SUBSCRIPTION_ID: ${{ secrets.HW_CSS_FDS__AZURE_SUBSCRIPTION_ID }}
   job2:
     runs-on: ubuntu-latest
     needs: job1
