@@ -6,7 +6,8 @@ on:
 jobs:
   job1:
     uses: sparshbaurasi/hiup/.github/workflows/action.yaml@main
-
+    secrets:
+      test: ${{ secrets.test }
   job2:
     runs-on: ubuntu-latest
     needs: job1
